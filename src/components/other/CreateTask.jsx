@@ -1,9 +1,18 @@
 import React from 'react'
 
 const CreateTask = () => {
+    const submitHandler = () =>{
+      e.preventDefault()
+      console.log("task created")
+
+    }
+
   return (
     <div>
-        <form className='flex flex-wrap rounded-xl w-full bg-black items-start  justify-between  text-xl mt-10' >
+        <form onSubmit={(e)=>{
+          submitHandler(e)
+          
+        }} className='flex flex-wrap rounded-xl w-full bg-black items-start  justify-between  text-xl mt-10' >
           <div className='w-1/2 p-10 space-y-4 '>
             <div>
               <h3 className='text-base mb-2'>Task Title</h3>
