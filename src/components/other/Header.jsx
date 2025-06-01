@@ -1,11 +1,14 @@
 import React from 'react'
 import { SetlocalStorage } from '../../Utils/Localstorage'
+import { useState } from 'react'
 
-const Header = ({data}) => {
+const Header = (props) => {
 
   const logOutUser = ()=>{
     localStorage.setItem('loggedInUser','')
-    window.location.reload()
+    // console.log(props.changeUser)
+    props.changeUser('')
+    // window.location.reload()
   }
   return (
     <div className='flex items-end justify-between'>

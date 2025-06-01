@@ -14,3 +14,23 @@ body{
 #failedTask{
   color: black;
 }
+
+#loginbtn:hover{
+  color: #111;
+  background-color: white;
+  
+}
+
+#newtask{
+  color: blue;
+}
+#activetask{
+  color: yellow;
+}
+#completedtask{
+  color: green;
+}
+#failedtask{
+  color: red;
+  
+}
