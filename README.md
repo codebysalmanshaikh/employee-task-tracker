@@ -1,12 +1,71 @@
-# React + Vite
+# Employee Task Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A role-based task management system built with **React** and **Tailwind CSS**, allowing admins to assign tasks and employees to track their progress. This application uses **local storage** for authentication and data persistence, making it lightweight and easy to test without a backend.
 
-Currently, two official plugins are available:
+## 🔍 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The **Employee Task Tracker** provides two dashboards — one for **Admin** and one for **Employees**. Admins can log in, create tasks for employees with detailed info (title, category, date, description), and monitor their status. Employees can log in to view tasks assigned to them and track their progress (New, Active, Completed, Failed).
 
-## Expanding the ESLint configuration
+This project is fully frontend-based and stores all data in the browser's local storage.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Features
+
+### 🔐 Authentication
+- Simple local storage-based login system
+- Hardcoded credentials for one Admin and five Employees
+
+### 🧑‍💼 Admin Dashboard
+- Login as Admin
+- Assign tasks to employees
+- Input task title, category, date, and description
+- View task statistics:
+  - Active
+  - Completed
+  - Failed
+  - New
+- Logout functionality
+
+### 👨‍💻 Employee Dashboard
+- Login as Employee
+- View tasks assigned by Admin (dummy data from local storage)
+- See task breakdown by status (New, Active, Completed, Failed)
+- Logout functionality
+
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Local Storage** for persistence
+- **Vite** for fast development setup
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/codebysalmanshaikh/employee-task-tracker.git
+cd employee-task-tracker
+
+
+
+🔑 Login Credentials
+Admin
+Email: admin@example.com
+Password: 123
+ 
+
+Employees
+Email: employee1@example.com to employee5@example.com
+Password: 123
+
+
+
+👤 Author
+Salman Shaikh
+GitHub: @codebysalmanshaikh

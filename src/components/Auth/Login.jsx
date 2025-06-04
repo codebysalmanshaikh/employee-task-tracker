@@ -14,7 +14,7 @@ const Login = ({handlelogin}) => {
 
   return (
     <div className=' flex w-screen items-center justify-center mt-50'>
-        <div className='  border-2  border-white rounded-xl p-10'>
+        <div className=' bg-[#0B0D20] border-2  border-[#2FA4FF] rounded-xl p-10'>
             <form
             
             onSubmit={(e)=>{
@@ -27,15 +27,15 @@ const Login = ({handlelogin}) => {
                   setemail(e.target.value)
                  }} 
                  required 
-                 className='text-black outline-none border-1 border-white py-3 px-5 text-xl rounded-xl placeholder:text-gray-400' type="email" placeholder='enter your email ' />
+                 className='text-[#FFFFFF] bg-[#11142B] outline-none border-1 border-[#2FA4FF] py-3 px-5 text-xl rounded-xl placeholder:text-gray-400' type="email" placeholder=' your email ' />
                 <input
                   value={password}
                   onChange={(e)=>{
                     setpassword(e.target.value)
                   }}
                  required 
-                 className='text-black outline-none border-1 border-white py-3 px-5 text-xl rounded-xl placeholder:text-gray-400 mt-4' type="password" placeholder='enter password'/>
-                <button id='loginbtn' className='text-black outline-none border-1  bg-[#111] py-3 px-5 text-xl rounded-xl placeholder:text-black mt-4'>Login</button>
+                 className=' text-[#FFFFFF] bg-[#11142B] outline-none border-1 border-[#2FA4FF] py-3 px-5 text-xl rounded-xl placeholder:text-gray-400 mt-4' type="password" placeholder='your password'/>
+                <button id='loginbtn' className='text-[#020013] outline-none  bg-[#65F1D2] py-2 px-5 text-xl rounded-xl placeholder:text-black mt-4 font-bold'>Login</button>
             </form>
         </div>
       

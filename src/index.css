@@ -1,11 +1,12 @@
 @import "tailwindcss";
 
-*{
-  color: #fff;
-}
+/* /* *{
+  /* color: #fff; */
+  /* font-style: Geist regular; */
+/* }  */
 
 body{
-  background-color: #111;
+  background-color: #0B0D20;
 }
 #tasklist::-webkit-scrollbar{
   display: none;
@@ -17,7 +18,7 @@ body{
 
 #loginbtn:hover{
   color: #111;
-  background-color: white;
+  /* background-color: white; */
   
 }
 
