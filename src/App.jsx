@@ -45,7 +45,7 @@
 
 import React, { useContext, useState } from 'react'
 import { useEffect } from 'react'
-import Login from './components/Auth/login'
+import Login from './components/Auth/Login'
 import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
 import AdminDashboard from './components/Dashboard/AdminDashboard'
 import { AuthContext } from './context/AuthProvider'
