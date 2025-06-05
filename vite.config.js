@@ -4,8 +4,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'https://github.com/codebysalmanshaikh/employee-task-tracker.git',
   plugins: [react() ,tailwindcss()],
+  base: './'
 })
 // import { defineConfig } from 'vite'
 // import tailwindcss from '@tailwindcss/vite'
